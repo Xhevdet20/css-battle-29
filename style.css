@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 300px;
+    width: 400px;
+    background: #F3AC3C;
+    position: relative;
+    overflow: hidden;
+}
+
+.a {
+    width: 200px;
+    height: 200px;
+    background: #1A4341;
+    position : absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+  }
+  
+    .b {
+    width: 200px;
+    height: 200px;
+    background: #F3AC3C;
+    border-radius: 50%;
+    position : absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, 0%);
+    box-shadow: -200px 0px  #F3AC3C,
+      			-200px -200px #F3AC3C,
+      			0px -200px #F3AC3C;
+  }
+  
